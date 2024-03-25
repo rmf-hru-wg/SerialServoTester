@@ -465,7 +465,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "SerialServoTester.kicad_pro",
+    "filename": "SST-Single.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -538,10 +538,10 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "SerialServoTester.net",
+      "netlist": "SST-Single.net",
       "plot": "",
       "pos_files": "",
-      "specctra_dsn": "SerialServoTester.dsn",
+      "specctra_dsn": "SST-Single.dsn",
       "step": "",
       "svg": "",
       "vrml": ""
