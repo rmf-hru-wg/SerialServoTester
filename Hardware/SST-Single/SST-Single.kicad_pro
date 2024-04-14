@@ -634,7 +634,7 @@
           "group_by": false,
           "label": "URL",
           "name": "URL",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
