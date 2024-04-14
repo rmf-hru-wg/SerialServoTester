@@ -145,26 +145,6 @@
 		(uuid "4c46ece3-243c-4b71-b468-dd85c10a7033")
 	)
 	(fp_line
-		(start -13.462 -4.826)
-		(end -11.43 -4.826)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "5aef3e23-8622-4616-a76e-0efc0a7c27a7")
-	)
-	(fp_line
-		(start -13.462 4.826)
-		(end -13.462 -4.826)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "b9f711af-d3ce-489c-9721-2559e2d5cb23")
-	)
-	(fp_line
 		(start -11.43 -7.62)
 		(end 11.43 -7.62)
 		(stroke
@@ -175,7 +155,7 @@
 		(uuid "cd47cb1c-49b9-45bd-9144-ae27ed0628d7")
 	)
 	(fp_line
-		(start -11.43 -4.826)
+		(start -11.43 -5.08)
 		(end -11.43 -7.62)
 		(stroke
 			(width 0.05)
@@ -185,34 +165,54 @@
 		(uuid "294a23d6-a879-435d-8207-e94c79f89b8b")
 	)
 	(fp_line
-		(start -11.43 4.826)
-		(end -13.462 4.826)
+		(start -11.43 5.08)
+		(end 11.43 5.08)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "fd99e355-bf6c-4d20-8ab3-2a9832addd18")
+		(uuid "6ac92d92-c0e7-40d4-a169-96af5cac69dd")
 	)
 	(fp_line
 		(start -11.43 7.62)
-		(end -11.43 4.826)
+		(end -11.43 5.08)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "2115ad5b-5145-4eb3-86bc-9b87b3586317")
+		(uuid "1f39cee1-07c4-42b0-aeed-41a1db6c559e")
 	)
 	(fp_line
 		(start 11.43 -7.62)
+		(end 11.43 -5.08)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "188d6a87-e9d6-4c8f-bff6-1b50b30932f5")
+	)
+	(fp_line
+		(start 11.43 -5.08)
+		(end -11.43 -5.08)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "ba81a0b1-555b-4165-bcbb-c00736959f8f")
+	)
+	(fp_line
+		(start 11.43 5.08)
 		(end 11.43 7.62)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "f2ed285a-1538-4390-8f7d-0dbaed5fbb9f")
+		(uuid "82c1fc6c-d6fa-480c-bc0c-7755345919b3")
 	)
 	(fp_line
 		(start 11.43 7.62)
@@ -222,7 +222,7 @@
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "0818d3c8-d47c-46d1-bfe6-8ce93a11b6a5")
+		(uuid "81020b36-908c-4565-8d05-545ea2c5f64a")
 	)
 	(pad "1" thru_hole roundrect
 		(at -10.16 6.35)
@@ -369,5 +369,27 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "3e9b0fd9-d4fc-4084-98fc-7f73b61010dd")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x09_P2.54mm_Vertical.step"
+		(offset
+			(xyz -10.16 -6.35 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x09_P2.54mm_Vertical.step"
+		(offset
+			(xyz -10.16 6.35 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
 	)
 )

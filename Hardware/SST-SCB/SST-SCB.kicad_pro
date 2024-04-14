@@ -530,6 +530,7 @@
       "GND": "Power_2",
       "Net-(D1-A)": "Power_2",
       "Net-(D1-K)": "Power_2",
+      "Net-(U1-5V)": "Power_2",
       "VCC": "Power_2"
     },
     "netclass_patterns": []
@@ -686,6 +687,10 @@
     [
       "e5bff898-761a-488d-9eb3-fcefbc10dbec",
       "ルート"
+    ],
+    [
+      "7f8554f7-4c6d-4a37-8ab8-88845bf48a15",
+      "Servo Port"
     ]
   ],
   "text_variables": {}
