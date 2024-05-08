@@ -530,7 +530,8 @@
       "GND": "Power_2",
       "Net-(D1-A)": "Power_2",
       "Net-(D1-K)": "Power_2",
-      "VCC": "Power_2"
+      "VCC": "Power_2",
+      "unconnected-(D1-K-Pad1)": "Power_2"
     },
     "netclass_patterns": []
   },

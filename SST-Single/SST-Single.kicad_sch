@@ -940,261 +940,6 @@
 				)
 			)
 		)
-		(symbol "Device:Thermistor_PTC"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TH"
-				(at -4.064 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Thermistor_PTC"
-				(at 3.048 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.27 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Temperature dependent resistor, positive temperature coefficient"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "resistor PTC thermistor sensor RTD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*PTC* *Thermistor* PIN?ARRAY* bornier* *Terminal?Block* R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Thermistor_PTC_0_1"
-				(arc
-					(start -3.048 2.159)
-					(mid -3.0495 2.3143)
-					(end -3.175 2.413)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.048 2.159)
-					(mid -2.9736 1.9794)
-					(end -2.794 1.905)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.048 2.794)
-					(mid -2.9736 2.6144)
-					(end -2.794 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.794 1.905)
-					(mid -2.6144 1.9794)
-					(end -2.54 2.159)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.794 2.54)
-					(mid -2.4393 2.5587)
-					(end -2.159 2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.794 3.048)
-					(mid -2.9736 2.9736)
-					(end -3.048 2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 2.794)
-					(mid -2.6144 2.9736)
-					(end -2.794 3.048)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.016 2.54)
-					(end 1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.159) (xy -2.54 2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.54) (xy -1.778 1.524) (xy 1.778 -1.524) (xy 1.778 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -3.683) (xy -2.54 -1.397) (xy -2.794 -2.159) (xy -2.286 -2.159) (xy -2.54 -1.397) (xy -2.54 -1.651)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -3.683) (xy -1.778 -1.397) (xy -2.032 -2.159) (xy -1.524 -2.159) (xy -1.778 -1.397)
-						(xy -1.778 -1.651)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "Thermistor_PTC_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Interface_UART:LT1785AxN8"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1817,6 +1562,231 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Switch:SW_DIP_x02"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_DIP_x02"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "dip switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SW?DIP?x2*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_DIP_x02_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.127) (xy 2.3622 1.1684)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 2.667) (xy 2.3622 3.7084)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_DIP_x02_0_1"
+				(rectangle
+					(start -3.81 5.08)
+					(end 3.81 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SW_DIP_x02_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2547,22 +2517,16 @@
 		)
 	)
 	(junction
+		(at 116.84 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10b8fda2-cb61-4122-ac53-346e0ecd0143")
+	)
+	(junction
 		(at 186.69 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "13d67bd1-27c3-4c45-b244-0a8af5bf7bb6")
-	)
-	(junction
-		(at 111.76 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1e85ad85-3c92-4739-b812-7fcf0ae6d6dd")
-	)
-	(junction
-		(at 81.28 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "20eedaff-ce08-4491-a9f7-20c7b26dc419")
 	)
 	(junction
 		(at 124.46 38.1)
@@ -2589,16 +2553,10 @@
 		(uuid "38311a81-8da1-4770-b908-7c18ef13e1e8")
 	)
 	(junction
-		(at 111.76 60.96)
+		(at 99.06 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "40dd02ae-c59f-4c37-85f0-3a9789488e8c")
-	)
-	(junction
-		(at 139.7 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "469be44d-bc18-4440-8775-d315dd6a6b40")
 	)
 	(junction
 		(at 81.28 38.1)
@@ -2613,13 +2571,7 @@
 		(uuid "5b9b5b69-bb40-4c3b-8702-080f3f52f54c")
 	)
 	(junction
-		(at 124.46 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6c337c4a-d46f-47eb-abd3-5291726a9355")
-	)
-	(junction
-		(at 111.76 83.82)
+		(at 99.06 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a01da6f-2922-4898-b98c-16b8425abf15")
@@ -2631,7 +2583,7 @@
 		(uuid "9bf8d19e-ad69-4fa4-a286-37858bda1dff")
 	)
 	(junction
-		(at 81.28 60.96)
+		(at 68.58 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b244e7d4-c00a-43f9-9e8d-d0ebd5a5a423")
@@ -2643,10 +2595,22 @@
 		(uuid "b816ca7b-f62f-481a-a4ce-921668018987")
 	)
 	(junction
-		(at 81.28 116.84)
+		(at 127 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c60c2887-9139-4fb3-9aa3-6a016e11e17a")
+	)
+	(junction
+		(at 68.58 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cffd3ee2-926d-4246-b87a-807dfd38acb9")
+	)
+	(junction
+		(at 99.06 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1cf9906-022a-47fd-acb1-2fe871f1eb17")
 	)
 	(junction
 		(at 180.34 86.36)
@@ -2655,49 +2619,55 @@
 		(uuid "d6e9d361-18ec-41d0-a7a7-418165985338")
 	)
 	(junction
+		(at 116.84 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e09fabcc-984b-4131-a96b-4477441e2f51")
+	)
+	(junction
 		(at 236.22 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e80d3cfe-19c7-4075-a16a-0b414d7f6553")
 	)
 	(no_connect
-		(at 101.6 91.44)
+		(at 88.9 106.68)
+		(uuid "44c47372-773d-47b9-b6d3-4bc4796f0371")
+	)
+	(no_connect
+		(at 88.9 91.44)
 		(uuid "48554360-1d94-49f8-85db-1338f5bc4b77")
 	)
 	(no_connect
-		(at 101.6 101.6)
+		(at 88.9 101.6)
 		(uuid "49025700-ad3c-4261-8e96-3a8077258bb4")
 	)
 	(no_connect
-		(at 101.6 93.98)
+		(at 88.9 93.98)
 		(uuid "49e86547-c5a3-49bb-8f10-be3be1e47bec")
 	)
 	(no_connect
-		(at 101.6 81.28)
+		(at 88.9 81.28)
 		(uuid "7bba5474-e0e6-42ab-b005-8f947cc73304")
 	)
 	(no_connect
-		(at 101.6 88.9)
+		(at 88.9 88.9)
 		(uuid "8055028a-e86a-4378-bd07-5ef4f9d9cb73")
 	)
 	(no_connect
-		(at 66.04 91.44)
+		(at 53.34 91.44)
 		(uuid "839c0f6f-dc61-4afe-a80d-a494c1e4485f")
 	)
 	(no_connect
-		(at 101.6 83.82)
+		(at 88.9 83.82)
 		(uuid "8a3b6941-55f0-4a85-acc8-3e4aca319207")
 	)
 	(no_connect
-		(at 66.04 76.2)
-		(uuid "97cd3dc7-3a59-4028-ae32-0129687fdee3")
-	)
-	(no_connect
-		(at 101.6 104.14)
+		(at 88.9 104.14)
 		(uuid "abd3a1e1-c09e-4d94-bf77-be9f3935ec43")
 	)
 	(no_connect
-		(at 101.6 86.36)
+		(at 88.9 86.36)
 		(uuid "e88f5427-696e-4fdc-8551-ce26256f1488")
 	)
 	(wire
@@ -2732,7 +2702,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 116.84) (xy 86.36 116.84)
+			(xy 68.58 116.84) (xy 73.66 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2782,17 +2752,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 53.34) (xy 139.7 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fc1644a-d489-4436-84b4-c556d7408d9a")
-	)
-	(wire
-		(pts
-			(xy 124.46 38.1) (xy 124.46 48.26)
+			(xy 124.46 38.1) (xy 124.46 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2802,23 +2762,23 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 78.74) (xy 114.3 78.74)
+			(xy 116.84 124.46) (xy 116.84 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "117dc681-6db6-48b9-bf12-efeb5bba05b7")
+	)
+	(wire
+		(pts
+			(xy 88.9 78.74) (xy 114.3 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "122fde8f-76a6-4b1f-9fcb-3b867712ea57")
-	)
-	(wire
-		(pts
-			(xy 114.3 81.28) (xy 111.76 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15428858-f51b-4cee-80c5-5b9fa32496f6")
 	)
 	(wire
 		(pts
@@ -2842,16 +2802,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 106.68) (xy 111.76 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ec2e3f4-5b0e-470f-a3d7-bebc65cf2a28")
-	)
-	(wire
-		(pts
 			(xy 182.88 91.44) (xy 190.5 91.44)
 		)
 		(stroke
@@ -2862,13 +2812,23 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 66.04) (xy 86.36 68.58)
+			(xy 73.66 66.04) (xy 73.66 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "230ad111-c1e0-46b8-959f-d26f8f1976a5")
+	)
+	(wire
+		(pts
+			(xy 127 139.7) (xy 139.7 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23119520-35dd-4e5c-8a9b-a711eba7d1f6")
 	)
 	(wire
 		(pts
@@ -2882,7 +2842,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 66.04) (xy 81.28 68.58)
+			(xy 68.58 60.96) (xy 68.58 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2922,7 +2882,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 81.28) (xy 111.76 83.82)
+			(xy 99.06 71.12) (xy 99.06 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2992,23 +2952,23 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 48.26) (xy 139.7 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56bf9c95-2849-4158-9cba-ccdef908de5b")
-	)
-	(wire
-		(pts
-			(xy 86.36 116.84) (xy 86.36 114.3)
+			(xy 73.66 116.84) (xy 73.66 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5a3d5d10-7638-4d3d-93f3-624b6d8261fb")
+	)
+	(wire
+		(pts
+			(xy 116.84 134.62) (xy 116.84 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ce964ef-53a7-49e7-bcb8-ae09a3561f37")
 	)
 	(wire
 		(pts
@@ -3022,7 +2982,37 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 83.82) (xy 114.3 83.82)
+			(xy 88.9 139.7) (xy 99.06 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6733fb6c-b494-425a-8f95-904d351323c7")
+	)
+	(wire
+		(pts
+			(xy 114.3 139.7) (xy 127 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67a9bb04-1855-461b-bbe7-9f07acc53acd")
+	)
+	(wire
+		(pts
+			(xy 116.84 137.16) (xy 139.7 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a750bc6-a0bd-4445-8644-1984500e607e")
+	)
+	(wire
+		(pts
+			(xy 99.06 83.82) (xy 114.3 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3052,7 +3042,17 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 76.2) (xy 104.14 88.9)
+			(xy 114.3 137.16) (xy 116.84 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "720d608e-d24e-458b-a220-b49f5ceacfca")
+	)
+	(wire
+		(pts
+			(xy 91.44 76.2) (xy 91.44 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3062,17 +3062,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 48.26) (xy 129.54 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "726e8236-7331-480b-9ae5-d28fb6157d6b")
-	)
-	(wire
-		(pts
-			(xy 101.6 99.06) (xy 111.76 99.06)
+			(xy 88.9 99.06) (xy 99.06 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3082,7 +3072,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 83.82) (xy 111.76 99.06)
+			(xy 99.06 83.82) (xy 99.06 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3112,17 +3102,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 38.1) (xy 110.49 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c5882f1-d403-47c0-a47a-f7aed7463ea3")
-	)
-	(wire
-		(pts
-			(xy 81.28 60.96) (xy 111.76 60.96)
+			(xy 68.58 60.96) (xy 99.06 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3142,7 +3122,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 38.1) (xy 93.98 38.1)
+			(xy 81.28 38.1) (xy 110.49 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3172,16 +3152,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 71.12) (xy 111.76 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8498c9c1-a29c-4201-a2de-d057315af623")
-	)
-	(wire
-		(pts
 			(xy 177.8 50.8) (xy 186.69 50.8)
 		)
 		(stroke
@@ -3202,13 +3172,23 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 63.5) (xy 111.76 60.96)
+			(xy 99.06 63.5) (xy 99.06 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8a55b6f7-c989-4da3-9bd4-380f0bbca735")
+	)
+	(wire
+		(pts
+			(xy 127 134.62) (xy 127 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b510d21-460b-4799-a37f-0540dd6add93")
 	)
 	(wire
 		(pts
@@ -3222,7 +3202,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 58.42) (xy 81.28 60.96)
+			(xy 68.58 58.42) (xy 68.58 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3239,6 +3219,16 @@
 			(type default)
 		)
 		(uuid "9c615c53-cdb2-4dc2-8b94-d659d88f9645")
+	)
+	(wire
+		(pts
+			(xy 73.66 66.04) (xy 50.8 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6233713-a58b-4b5c-9a7d-88b9f332b2d4")
 	)
 	(wire
 		(pts
@@ -3302,6 +3292,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 66.04) (xy 50.8 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfe663d0-c1a7-40c7-9e76-f477df0bf190")
+	)
+	(wire
+		(pts
 			(xy 149.86 48.26) (xy 149.86 38.1)
 		)
 		(stroke
@@ -3332,7 +3332,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 60.96) (xy 124.46 60.96)
+			(xy 99.06 60.96) (xy 124.46 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3342,7 +3342,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 88.9) (xy 114.3 88.9)
+			(xy 91.44 88.9) (xy 114.3 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3352,13 +3352,23 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 66.04) (xy 81.28 60.96)
+			(xy 116.84 121.92) (xy 116.84 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c615c59f-156c-4e0a-809a-49a709c4a678")
+		(uuid "c7267c33-853f-4774-aeeb-265bd424101f")
+	)
+	(wire
+		(pts
+			(xy 88.9 139.7) (xy 88.9 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c78bb369-3a8e-4be3-8dbb-ffa5f8e08b31")
 	)
 	(wire
 		(pts
@@ -3372,27 +3382,47 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 48.26) (xy 139.7 53.34)
+			(xy 99.06 99.06) (xy 106.68 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c9a0c760-9569-4c17-9f0d-760233f72b2e")
+		(uuid "cc49e92e-925a-452f-aa5f-87b6105f97b8")
 	)
 	(wire
 		(pts
-			(xy 81.28 66.04) (xy 86.36 66.04)
+			(xy 104.14 81.28) (xy 114.3 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d6972bbe-0845-4b62-9f5d-77c7a8495f16")
+		(uuid "ceffc92b-5f13-49ad-8128-c0037abb3737")
 	)
 	(wire
 		(pts
-			(xy 139.7 53.34) (xy 142.24 53.34)
+			(xy 88.9 137.16) (xy 99.06 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2a5babe-49eb-4fac-80a7-8b8bebfc1b94")
+	)
+	(wire
+		(pts
+			(xy 116.84 124.46) (xy 127 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d73f33b6-7c24-42bc-9959-2cca029a5ed2")
+	)
+	(wire
+		(pts
+			(xy 129.54 53.34) (xy 142.24 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3412,17 +3442,17 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 48.26) (xy 124.46 60.96)
+			(xy 50.8 76.2) (xy 53.34 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "decbb0ed-b297-44fd-a151-9e72dcfcf1ec")
+		(uuid "ddf30538-139b-4bfd-9804-bd12f9af480c")
 	)
 	(wire
 		(pts
-			(xy 81.28 116.84) (xy 81.28 119.38)
+			(xy 68.58 116.84) (xy 68.58 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3472,7 +3502,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 76.2) (xy 104.14 76.2)
+			(xy 88.9 76.2) (xy 91.44 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3482,13 +3512,23 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 114.3) (xy 81.28 116.84)
+			(xy 68.58 114.3) (xy 68.58 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f031a659-42c2-417f-87e6-802822c318e2")
+	)
+	(wire
+		(pts
+			(xy 127 124.46) (xy 127 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f944ebe8-40bb-4a5b-9ddd-52334457f9b4")
 	)
 	(wire
 		(pts
@@ -3510,6 +3550,17 @@
 		)
 		(uuid "fd50ab07-a896-453f-9a6c-c06ec67e3c24")
 	)
+	(label "~{EN_4PIN}"
+		(at 139.7 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1076b190-e366-4550-8d9f-f13425c33768")
+	)
 	(label "RS485A"
 		(at 182.88 78.74 0)
 		(fields_autoplaced yes)
@@ -3520,6 +3571,39 @@
 			(justify left bottom)
 		)
 		(uuid "11703a19-fc20-43b3-9973-2b84ee7027e7")
+	)
+	(label "~{RS485_RE}"
+		(at 104.14 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "17ba593e-9fec-4f55-8e95-a065c7d42ab6")
+	)
+	(label "RXDEN"
+		(at 106.68 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "286f48cf-1070-429d-a804-454ac46e9d4c")
+	)
+	(label "~{RS485_RE}"
+		(at 139.7 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5562bb87-23fe-4c39-9285-6dff5fd10c14")
 	)
 	(label "RS485B"
 		(at 182.88 93.98 0)
@@ -3543,17 +3627,6 @@
 		)
 		(uuid "9c1f01d3-a5bb-4c20-b19a-4f8125d57f4d")
 	)
-	(label "~{EN_4PIN}"
-		(at 111.76 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a0bee954-5d00-4155-b2a0-43b1ba45e0b4")
-	)
 	(label "RS485A"
 		(at 182.88 91.44 0)
 		(fields_autoplaced yes)
@@ -3564,6 +3637,17 @@
 			(justify left bottom)
 		)
 		(uuid "c7d26dbe-8f31-4edd-9fd1-30702ee52b59")
+	)
+	(label "RXDEN"
+		(at 88.9 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd717cce-f94e-411d-9acb-91435f3258be")
 	)
 	(label "RS485B"
 		(at 160.02 81.28 180)
@@ -3737,7 +3821,7 @@
 			(uuid "c040c0d6-efc5-4c9b-b84b-232661001725")
 		)
 		(instances
-			(project "SerialServoTester"
+			(project "SST-Single"
 				(path "/e5bff898-761a-488d-9eb3-fcefbc10dbec"
 					(reference "#PWR03")
 					(unit 1)
@@ -3823,7 +3907,7 @@
 			(uuid "d47b0787-5502-4dc3-8d91-388637d7b5da")
 		)
 		(instances
-			(project "SerialServoTester"
+			(project "SST-Single"
 				(path "/e5bff898-761a-488d-9eb3-fcefbc10dbec"
 					(reference "J3")
 					(unit 1)
@@ -3833,7 +3917,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.28 119.38 0)
+		(at 68.58 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3842,7 +3926,7 @@
 		(fields_autoplaced yes)
 		(uuid "19d826fc-c8f1-4079-b915-415bfaf01164")
 		(property "Reference" "#PWR01"
-			(at 81.28 125.73 0)
+			(at 68.58 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3851,7 +3935,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 124.46 0)
+			(at 68.58 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3859,7 +3943,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 119.38 0)
+			(at 68.58 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3868,7 +3952,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 119.38 0)
+			(at 68.58 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3877,7 +3961,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 119.38 0)
+			(at 68.58 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3889,7 +3973,7 @@
 			(uuid "5d308416-5a0b-442a-8474-72d27a029be5")
 		)
 		(instances
-			(project "SerialServoTester"
+			(project "SST-Single"
 				(path "/e5bff898-761a-488d-9eb3-fcefbc10dbec"
 					(reference "#PWR01")
 					(unit 1)
@@ -3968,7 +4052,7 @@
 			(uuid "ceb06835-772f-4bab-b27d-4164dba8cb7c")
 		)
 		(instances
-			(project "SerialServoTester"
+			(project "SST-Single"
 				(path "/e5bff898-761a-488d-9eb3-fcefbc10dbec"
 					(reference "R4")
 					(unit 1)
@@ -4034,9 +4118,75 @@
 			(uuid "7f361b7b-f328-49c0-b6a4-cb6525dabce6")
 		)
 		(instances
-			(project "SerialServoTester"
+			(project "SST-Single"
 				(path "/e5bff898-761a-488d-9eb3-fcefbc10dbec"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a7d7d9c-4fdb-4785-bbbe-f0fcdb94061a")
+		(property "Reference" "#PWR011"
+			(at 88.9 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d1831d6-d3b6-4e3b-9336-af23e6a316be")
+		)
+		(instances
+			(project "SST-Single"
+				(path "/e5bff898-761a-488d-9eb3-fcefbc10dbec"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -4100,9 +4250,82 @@
 			(uuid "c47d666a-895e-4705-8893-0945335669e3")
 		)
 		(instances
-			(project "SerialServoTester"
+			(project "SST-Single"
 				(path "/e5bff898-761a-488d-9eb3-fcefbc10dbec"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DIP_x02")
+		(at 106.68 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3fff788e-5f0a-4b63-8bb9-ee4061851751")
+		(property "Reference" "SW1"
+			(at 106.68 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EDS102SZ"
+			(at 106.68 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx02_Slide_9.78x7.26mm_W7.62mm_P2.54mm"
+			(at 106.68 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+			(at 106.68 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "c2f2f86e-1f04-4bcc-87bc-bc4c4c3c19be")
+		)
+		(pin "3"
+			(uuid "90e64573-5ce8-419d-bea9-810deebf8370")
+		)
+		(pin "1"
+			(uuid "7b600b8c-5c54-4a43-aef9-b87c7428274c")
+		)
+		(pin "2"
+			(uuid "ecc73d4d-2d51-4623-a801-9d7efc1e16c7")
+		)
+		(instances
+			(project "SST-Single"
+				(path "/e5bff898-761a-488d-9eb3-fcefbc10dbec"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -4166,7 +4389,7 @@
 			(uuid "947a8256-148a-4dd3-b7e3-29878d256ba5")
 		)
 		(instances
-			(project "SerialServoTester"
+			(project "SST-Single"
 				(path "/e5bff898-761a-488d-9eb3-fcefbc10dbec"
 					(reference "#PWR04")
 					(unit 1)
@@ -4176,7 +4399,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 81.28 58.42 0)
+		(at 68.58 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4185,7 +4408,7 @@
 		(fields_autoplaced yes)
 		(uuid "4a42cb13-b832-4964-9b68-13a54d24960f")
 		(property "Reference" "#FLG01"
-			(at 81.28 56.515 0)
+			(at 68.58 56.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4194,7 +4417,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 81.28 54.102 0)
+			(at 68.58 54.102 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4202,7 +4425,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 58.42 0)
+			(at 68.58 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4211,7 +4434,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 58.42 0)
+			(at 68.58 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4220,7 +4443,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 58.42 0)
+			(at 68.58 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4232,7 +4455,7 @@
 			(uuid "8ba10d48-fc24-4144-b2da-a4d5fb30a189")
 		)
 		(instances
-			(project "SerialServoTester"
+			(project "SST-Single"
 				(path "/e5bff898-761a-488d-9eb3-fcefbc10dbec"
 					(reference "#FLG01")
 					(unit 1)
@@ -4309,9 +4532,88 @@
 			(uuid "17ffb0e0-004a-4742-a3a3-ef1ede82f893")
 		)
 		(instances
-			(project "SerialServoTester"
+			(project "SST-Single"
 				(path "/e5bff898-761a-488d-9eb3-fcefbc10dbec"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 116.84 130.81 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5bbe79e3-5d5d-4dc0-8cd1-a1c6fccfb0de")
+		(property "Reference" "R6"
+			(at 119.38 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 119.38 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 118.618 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
+			(at 116.84 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be3a19b7-0fee-48e3-9880-4d9085d7e128")
+		)
+		(pin "2"
+			(uuid "1a8a5399-94fc-425c-8a00-8b01a7c001a0")
+		)
+		(instances
+			(project "SST-Single"
+				(path "/e5bff898-761a-488d-9eb3-fcefbc10dbec"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -4375,7 +4677,7 @@
 			(uuid "4b1bfdec-8ab3-4d11-9a2b-2e685ce8fa80")
 		)
 		(instances
-			(project "SerialServoTester"
+			(project "SST-Single"
 				(path "/e5bff898-761a-488d-9eb3-fcefbc10dbec"
 					(reference "#FLG02")
 					(unit 1)
@@ -4441,7 +4743,7 @@
 			(uuid "d0d1b08d-dbc2-4b5d-a4a3-44b005422d3b")
 		)
 		(instances
-			(project "SerialServoTester"
+			(project "SST-Single"
 				(path "/e5bff898-761a-488d-9eb3-fcefbc10dbec"
 					(reference "#FLG03")
 					(unit 1)
@@ -4507,7 +4809,7 @@
 			(uuid "fe3dfb4b-cc4e-4e1b-a880-2acc11e24919")
 		)
 		(instances
-			(project "SerialServoTester"
+			(project "SST-Single"
 				(path "/e5bff898-761a-488d-9eb3-fcefbc10dbec"
 					(reference "#PWR05")
 					(unit 1)
@@ -4616,7 +4918,7 @@
 			(uuid "7e187628-95f9-4cf2-9777-a76ab50cf323")
 		)
 		(instances
-			(project "SerialServoTester"
+			(project "SST-Single"
 				(path "/e5bff898-761a-488d-9eb3-fcefbc10dbec"
 					(reference "Q1")
 					(unit 1)
@@ -4682,7 +4984,7 @@
 			(uuid "e9a33dbc-851d-48a0-8530-4da109c2816b")
 		)
 		(instances
-			(project "SerialServoTester"
+			(project "SST-Single"
 				(path "/e5bff898-761a-488d-9eb3-fcefbc10dbec"
 					(reference "#PWR07")
 					(unit 1)
@@ -4765,7 +5067,7 @@
 			(uuid "9c5d04a4-c120-4f2e-8917-f9cf69846957")
 		)
 		(instances
-			(project "SerialServoTester"
+			(project "SST-Single"
 				(path "/e5bff898-761a-488d-9eb3-fcefbc10dbec"
 					(reference "J1")
 					(unit 1)
@@ -4844,7 +5146,7 @@
 			(uuid "0dc337e7-762f-4027-83b5-edab1392c8b9")
 		)
 		(instances
-			(project "SerialServoTester"
+			(project "SST-Single"
 				(path "/e5bff898-761a-488d-9eb3-fcefbc10dbec"
 					(reference "R5")
 					(unit 1)
@@ -4927,7 +5229,7 @@
 			(uuid "589f7250-bf66-43db-bd89-b95695292f36")
 		)
 		(instances
-			(project "SerialServoTester"
+			(project "SST-Single"
 				(path "/e5bff898-761a-488d-9eb3-fcefbc10dbec"
 					(reference "J2")
 					(unit 1)
@@ -4937,7 +5239,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 111.76 67.31 0)
+		(at 99.06 67.31 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4946,7 +5248,7 @@
 		(dnp no)
 		(uuid "92b942e1-9a18-4b6d-a815-129b13d2317b")
 		(property "Reference" "R1"
-			(at 109.22 66.04 0)
+			(at 96.52 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4955,7 +5257,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 109.22 68.58 0)
+			(at 96.52 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4964,7 +5266,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 109.982 67.31 90)
+			(at 97.282 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4973,7 +5275,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 67.31 0)
+			(at 99.06 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4982,7 +5284,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.76 67.31 0)
+			(at 99.06 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4991,7 +5293,7 @@
 			)
 		)
 		(property "URL" ""
-			(at 111.76 67.31 0)
+			(at 99.06 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5006,87 +5308,9 @@
 			(uuid "1a282bdf-c18a-4f49-b6d9-cb36df09d3f1")
 		)
 		(instances
-			(project "SerialServoTester"
+			(project "SST-Single"
 				(path "/e5bff898-761a-488d-9eb3-fcefbc10dbec"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Thermistor_PTC")
-		(at 97.79 38.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a6e95f5a-9893-4560-9036-305f5d546c75")
-		(property "Reference" "TH1"
-			(at 98.1075 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PTGL07AR820M9A51B0"
-			(at 98.1075 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D8.0mm_W5.0mm_P5.00mm"
-			(at 102.87 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Temperature dependent resistor, positive temperature coefficient"
-			(at 97.79 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://akizukidenshi.com/catalog/g/g112709/"
-			(at 97.79 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7f92d2bb-267b-429b-82e0-29628be762f1")
-		)
-		(pin "1"
-			(uuid "7f625f8f-6d2d-4eb3-9ca7-0dcdff511679")
-		)
-		(instances
-			(project "SerialServoTester"
-				(path "/e5bff898-761a-488d-9eb3-fcefbc10dbec"
-					(reference "TH1")
 					(unit 1)
 				)
 			)
@@ -5163,7 +5387,7 @@
 			(uuid "9e89a512-9cfd-416d-9723-f3c4fba5269d")
 		)
 		(instances
-			(project "SerialServoTester"
+			(project "SST-Single"
 				(path "/e5bff898-761a-488d-9eb3-fcefbc10dbec"
 					(reference "R3")
 					(unit 1)
@@ -5260,7 +5484,7 @@
 			(uuid "2b560c5e-dad0-4fb2-855e-8ea1ff022409")
 		)
 		(instances
-			(project "SerialServoTester"
+			(project "SST-Single"
 				(path "/e5bff898-761a-488d-9eb3-fcefbc10dbec"
 					(reference "U2")
 					(unit 1)
@@ -5326,9 +5550,154 @@
 			(uuid "b7051f75-8789-44ba-96eb-a2b8b84d1514")
 		)
 		(instances
-			(project "SerialServoTester"
+			(project "SST-Single"
 				(path "/e5bff898-761a-488d-9eb3-fcefbc10dbec"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 116.84 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c149bef9-6ad4-4065-96bd-dbaa9bf61956")
+		(property "Reference" "#PWR012"
+			(at 116.84 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 116.84 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "794854e5-0776-4691-825c-8a371a45c320")
+		)
+		(instances
+			(project "SST-Single"
+				(path "/e5bff898-761a-488d-9eb3-fcefbc10dbec"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 127 130.81 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8696ab6-1968-4004-b74d-628a354a92f4")
+		(property "Reference" "R2"
+			(at 129.54 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 129.54 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 128.778 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" ""
+			(at 127 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61d9bbfb-9405-406e-b31d-0b68bbc7775c")
+		)
+		(pin "2"
+			(uuid "1d5ba2af-266d-4e32-9366-208964d43b0c")
+		)
+		(instances
+			(project "SST-Single"
+				(path "/e5bff898-761a-488d-9eb3-fcefbc10dbec"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -5392,7 +5761,7 @@
 			(uuid "44eea1be-df04-4fe5-bc3f-3ddf2555927c")
 		)
 		(instances
-			(project "SerialServoTester"
+			(project "SST-Single"
 				(path "/e5bff898-761a-488d-9eb3-fcefbc10dbec"
 					(reference "#PWR08")
 					(unit 1)
@@ -5402,7 +5771,7 @@
 	)
 	(symbol
 		(lib_id "SymbolLibrary:FT231XS_Breakout")
-		(at 83.82 91.44 0)
+		(at 71.12 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5410,7 +5779,7 @@
 		(dnp no)
 		(uuid "f3de0f45-eb54-41d6-8f66-477d8d029477")
 		(property "Reference" "U1"
-			(at 88.646 69.088 0)
+			(at 75.946 69.088 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5418,8 +5787,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FT231XS_Breakout"
-			(at 88.646 71.12 0)
+		(property "Value" "FT231XS-Breakout"
+			(at 75.946 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5428,7 +5797,7 @@
 			)
 		)
 		(property "Footprint" "FootprintLibrary:DIP-18_500_ELL"
-			(at 109.22 111.76 0)
+			(at 96.52 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5437,7 +5806,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf"
-			(at 83.82 91.44 0)
+			(at 71.12 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5446,7 +5815,7 @@
 			)
 		)
 		(property "Description" "Full Speed USB to Full Handshake UART, SSOP-20"
-			(at 83.82 91.44 0)
+			(at 71.12 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5455,7 +5824,7 @@
 			)
 		)
 		(property "URL" "https://www.marutsu.co.jp/pc/i/1557619/"
-			(at 83.82 91.44 0)
+			(at 71.12 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5518,7 +5887,7 @@
 			(uuid "de26c406-db81-4064-bc63-27d74d7283e5")
 		)
 		(instances
-			(project "SerialServoTester"
+			(project "SST-Single"
 				(path "/e5bff898-761a-488d-9eb3-fcefbc10dbec"
 					(reference "U1")
 					(unit 1)
@@ -5584,86 +5953,9 @@
 			(uuid "b2b68d92-1953-455b-b20e-8422e29d899f")
 		)
 		(instances
-			(project "SerialServoTester"
+			(project "SST-Single"
 				(path "/e5bff898-761a-488d-9eb3-fcefbc10dbec"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 133.35 48.26 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fdc6afb2-c6fe-4cc7-8d7c-ae775041dd57")
-		(property "Reference" "R2"
-			(at 133.35 41.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5.1k"
-			(at 133.35 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 133.35 46.482 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 133.35 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 133.35 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" ""
-			(at 133.35 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5385b54e-3142-4c01-a96e-237e722a2b59")
-		)
-		(pin "2"
-			(uuid "6558d3cc-3cd7-4882-b67e-d552ecca6074")
-		)
-		(instances
-			(project "SerialServoTester"
-				(path "/e5bff898-761a-488d-9eb3-fcefbc10dbec"
-					(reference "R2")
 					(unit 1)
 				)
 			)
