@@ -527,6 +527,7 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "+5V": "Power_2",
       "GND": "Power_2",
       "Net-(D1-A)": "Power_2",
       "Net-(D1-K)": "Power_2",
@@ -636,6 +637,12 @@
           "label": "URL",
           "name": "URL",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "memo",
+          "name": "memo",
+          "show": false
         }
       ],
       "filter_string": "",
