@@ -10088,7 +10088,7 @@
 			(justify right mirror)
 		)
 	)
-	(gr_text "EchoBK"
+	(gr_text "EchoTX"
 		(at 122.098 76.478 0)
 		(layer "F.SilkS")
 		(uuid "97e5d7a4-3441-4ee7-b106-97bb19ad4295")

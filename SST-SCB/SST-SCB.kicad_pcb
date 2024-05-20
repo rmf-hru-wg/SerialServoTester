@@ -145,6 +145,7 @@
 		)
 		(property "Value" "Conn_01x03_Pin"
 			(at 0 7.41 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "55c030c8-7eda-41da-b895-3a00d2020f26")
 			(effects
@@ -421,6 +422,7 @@
 		)
 		(property "Value" "Conn_01x03_Pin"
 			(at 0 7.41 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "e2ff8aee-6eb2-4a09-aa25-b6e7dd079387")
 			(effects
@@ -697,6 +699,7 @@
 		)
 		(property "Value" "Conn_01x02_Pin"
 			(at 1.98 6 -90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "f3bb69e0-cd6e-45c2-997a-975d2d64ffae")
 			(effects
@@ -1053,6 +1056,7 @@
 		)
 		(property "Value" "Conn_01x03_Pin"
 			(at 0 7.41 -90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "e460f026-48ad-4fd3-9e93-55e41ecbf253")
 			(effects
@@ -1329,6 +1333,7 @@
 		)
 		(property "Value" "Conn_01x03_Pin"
 			(at 0 7.41 -90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "59315732-df9d-4611-9560-d1fdbd6bb4a8")
 			(effects
@@ -1607,6 +1612,7 @@
 		)
 		(property "Value" "MountingHole"
 			(at 0 4.2 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "ccd85fda-3c0d-4fdb-aa5d-df55eddefc51")
 			(effects
@@ -1715,6 +1721,7 @@
 		)
 		(property "Value" "Conn_01x03_Pin"
 			(at 0 7.41 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "492ff919-bc4a-477e-8841-776d4ca17e5b")
 			(effects
@@ -1993,6 +2000,7 @@
 		)
 		(property "Value" "MountingHole"
 			(at 0 4.2 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "ef3b459b-62b8-48e0-9231-dcf02bc0be86")
 			(effects
@@ -2101,6 +2109,7 @@
 		)
 		(property "Value" "Conn_01x03_Pin"
 			(at 0 7.41 -90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "c3200cff-3ae3-420a-bed0-a03f5c152763")
 			(effects
@@ -2377,6 +2386,7 @@
 		)
 		(property "Value" "Conn_01x03_Pin"
 			(at 0 7.41 -90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "f8089522-0010-4151-9d18-8101953a7e57")
 			(effects
@@ -2653,6 +2663,7 @@
 		)
 		(property "Value" "Conn_01x03_Pin"
 			(at 0 7.41 -90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "567e1516-656b-4edd-9cd6-f51d3ef65564")
 			(effects
@@ -2929,6 +2940,7 @@
 		)
 		(property "Value" "5.1k"
 			(at 5.08 2.37 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "b84dc72f-a91a-416d-9104-f48cea6ce887")
 			(effects
@@ -3215,6 +3227,7 @@
 		)
 		(property "Value" "LT1785AxN8"
 			(at 3.81 9.95 -90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "49011527-1e41-4ca7-ba56-d892df1d54b4")
 			(effects
@@ -3640,6 +3653,7 @@
 		)
 		(property "Value" "Conn_01x03_Pin"
 			(at 0 7.41 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "f923b285-783e-473d-80aa-bfab431f312f")
 			(effects
@@ -3916,6 +3930,7 @@
 		)
 		(property "Value" "Conn_01x03_Pin"
 			(at 0 7.41 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "4f92b3fe-e260-43a4-ac04-33b865e839be")
 			(effects
@@ -4192,6 +4207,7 @@
 		)
 		(property "Value" "MJ-179PH"
 			(at -6.2 -5.5 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "30c9979b-50e7-4f0a-a837-611684342232")
 			(effects
@@ -4601,6 +4617,7 @@
 		)
 		(property "Value" "Conn_01x03_Pin"
 			(at 0 7.41 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "ca790898-a5c5-4d0b-867e-23656e41586b")
 			(effects
@@ -4877,6 +4894,7 @@
 		)
 		(property "Value" "5.1k"
 			(at 5.08 2.37 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "7ec9be4e-301e-4d93-b0cd-2b82638e51cf")
 			(effects
@@ -5163,6 +5181,7 @@
 		)
 		(property "Value" "Conn_01x03_Pin"
 			(at 0 7.41 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "89e5f131-6f10-4636-998f-45950def9f4a")
 			(effects
@@ -5439,6 +5458,7 @@
 		)
 		(property "Value" "Conn_01x03_Pin"
 			(at 0 7.41 -90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "53899568-1ad3-44b4-a099-e3244f1a596a")
 			(effects
@@ -5715,6 +5735,7 @@
 		)
 		(property "Value" "5.1k"
 			(at 5.08 2.37 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "4fea4c91-135c-49ce-aea5-e284ec8d4db4")
 			(effects
@@ -6001,6 +6022,7 @@
 		)
 		(property "Value" "Conn_01x03_Pin"
 			(at 0 7.41 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "0da6c3e6-abed-48b9-ae1a-db59fe2705a9")
 			(effects
@@ -6277,6 +6299,7 @@
 		)
 		(property "Value" "Conn_01x03_Pin"
 			(at 0 7.41 -90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "c0ce6e04-fc90-4ec6-b32a-a6178f5f0c24")
 			(effects
@@ -6553,6 +6576,7 @@
 		)
 		(property "Value" "5.1k"
 			(at 5.08 2.37 -90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "6349a031-82c6-4f7e-8908-b8d8c5a8c9c5")
 			(effects
@@ -6839,6 +6863,7 @@
 		)
 		(property "Value" "Conn_01x03_Pin"
 			(at 0 7.41 -90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "387b96e7-a7d3-47be-8b37-4db351276e61")
 			(effects
@@ -7115,6 +7140,7 @@
 		)
 		(property "Value" "Conn_01x03_Pin"
 			(at 0 7.41 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "e48bb7fb-58e8-4bc6-9af9-96bb272bdf04")
 			(effects
@@ -7391,6 +7417,7 @@
 		)
 		(property "Value" "Conn_01x03_Pin"
 			(at 0 7.41 -90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "cf2c275d-ec8c-4d9c-b921-d55e8bcfd6de")
 			(effects
@@ -7667,6 +7694,7 @@
 		)
 		(property "Value" "Conn_01x03_Pin"
 			(at 0 7.41 -90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "2e70da35-7ee6-474e-8f04-a30ab18389d7")
 			(effects
@@ -7943,6 +7971,7 @@
 		)
 		(property "Value" "C"
 			(at 1.75 5.25 -90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "5bd58429-7dfe-4d5b-b836-e004e7e922f5")
 			(effects
@@ -8089,6 +8118,7 @@
 		)
 		(property "Value" "Conn_01x03_Pin"
 			(at 0 7.41 -90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "c550e705-592c-4595-9f53-39eeacda5b5e")
 			(effects
@@ -8843,6 +8873,7 @@
 		)
 		(property "Value" "MountingHole"
 			(at 0 4.2 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "0be036a8-9da8-4226-9537-30cc3eea73bc")
 			(effects
@@ -8953,6 +8984,7 @@
 		)
 		(property "Value" "MountingHole"
 			(at 0 4.2 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "8b01bedb-548d-4eaa-a821-1c789658a55c")
 			(effects
@@ -9061,6 +9093,7 @@
 		)
 		(property "Value" "Conn_01x03_Pin"
 			(at 0 7.41 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "9fe479b8-ada2-4888-9b3e-abb38118a23a")
 			(effects
@@ -9337,6 +9370,7 @@
 		)
 		(property "Value" "Conn_01x03_Pin"
 			(at 0 7.41 -90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "b7af4109-25da-42d7-8043-176dc31e1ea9")
 			(effects
@@ -9613,6 +9647,7 @@
 		)
 		(property "Value" "Conn_01x03_Pin"
 			(at 0 7.41 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "2cf7fdd4-0055-4fef-87f6-ca1c3da59bc7")
 			(effects
@@ -9889,6 +9924,7 @@
 		)
 		(property "Value" "Conn_01x03_Pin"
 			(at 0 7.41 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "532a9f92-8195-4adb-9dcb-77549fa88c2a")
 			(effects
