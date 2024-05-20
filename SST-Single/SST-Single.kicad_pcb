@@ -5997,6 +5997,133 @@
 			)
 		)
 	)
+	(footprint "Symbol:Symbol_CC-Attribution_CopperTop_Small"
+		(layer "B.Cu")
+		(uuid "181020dc-97b2-42a5-8f52-188e65960349")
+		(at 127.94 47.776 90)
+		(descr "Creative Commons symbol, CC-BY, copper layer, 5mm")
+		(property "Reference" "REF**"
+			(at 0 4 270)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "c9d31a56-e029-4dc3-8593-a5d488c5d6cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "CC-BY"
+			(at 0 4.064 270)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "d1411ca8-0307-4c47-ab1b-811f0741e1c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "Symbol:Symbol_CC-Attribution_CopperTop_Small"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "053428c8-7244-48b0-a356-5e34680930c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bde08741-1f72-4b4e-a67e-1cff585b2c93")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "055804db-3736-4dcc-a3dc-b3d49596e10b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_rect
+			(start 0.45 -1.85)
+			(end -0.45 0)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "B.SilkS")
+			(uuid "246d8fbb-b556-4b03-99aa-8f54f3cf66c4")
+		)
+		(fp_rect
+			(start 0.8 -0.4)
+			(end -0.8 -0.2)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "B.SilkS")
+			(uuid "93d5be99-987b-429d-a702-86525671fcdf")
+		)
+		(fp_rect
+			(start 0.6 -0.2)
+			(end -0.6 0.8)
+			(stroke
+				(width 0.4)
+				(type solid)
+			)
+			(fill solid)
+			(layer "B.SilkS")
+			(uuid "69542e58-36e1-4c3c-b4bc-e159fa8651c3")
+		)
+		(fp_circle
+			(center 0.00064 0)
+			(end 2.50064 0)
+			(stroke
+				(width 0.4)
+				(type default)
+			)
+			(fill none)
+			(layer "B.SilkS")
+			(uuid "c52f2ede-7b9c-4608-a3dd-55f6320a0a4a")
+		)
+		(fp_circle
+			(center 0 1.59)
+			(end 0.3 1.59)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(fill solid)
+			(layer "B.SilkS")
+			(uuid "c1dfa935-27b0-4914-9689-e81865784b67")
+		)
+	)
 	(gr_poly
 		(pts
 			(xy 101.378841 61.406266) (xy 101.377448 61.406518) (xy 101.376108 61.406942) (xy 101.374821 61.407541)
