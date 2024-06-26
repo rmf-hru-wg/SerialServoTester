@@ -78,9 +78,7 @@ DIP SwitchのON/OFF対応は以下の通り
 
 
 ## 基板構成のフローチャート
-
-<div class="mermaid">
-%%{init: {'themeVariables': { 'fontSize': '200%'}}}%%
+```mermaid
 flowchart LR;
     USB -- FT231X<br>Converter --> UART
     UART -- TX,RX --> RS485IC
@@ -88,7 +86,7 @@ flowchart LR;
     SW[DIP Switch] -- ON/OFF --> SEL
     SEL -- TTL --> 3PIN[3 Pin<br>Connector]
     SEL -- RS485 --> 4PIN[4 Pin<br>Connector]
-</div>
+```
 
 ## サーボ通信の仕組み
 
@@ -108,8 +106,3 @@ flowchart LR;
 ## 動作プログラムについて
 
 TODO: 別リポジトリURLを参照
-
----
-
-<script src="https://unpkg.com/mermaid@8.1.0/dist/mermaid.min.js"></script>
-<script>mermaid.initialize({startOnLoad:true});</script>
